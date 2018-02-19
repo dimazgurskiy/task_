@@ -14,4 +14,14 @@
         }
  }
 
- fizz_buzz( 100 );
+//  fizz_buzz( 100 );
+
+ function fizz_buzz_one( num ){
+    for ( let i = 0; i <= num; i++ ){
+        let one = i % 3 === 0 ? 'Fizz' : '';
+        let two = i % 5 === 0 ? 'Buzz' : '';
+        one || two  ? console.log( one + two ) : console.log(i);
+    }
+
+ }
+ fizz_buzz_one( 150 )
