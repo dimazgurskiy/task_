@@ -12,4 +12,4 @@ function tablet( index, num , hash , gap ) {
        }
 }
 
-tablet( 8 , 8 , '#' , ' ' );
+tablet( 8 , 40 , '#' , ' ' );
