@@ -22,6 +22,5 @@
         let two = i % 5 === 0 ? 'Buzz' : '';
         one || two  ? console.log( one + two ) : console.log(i);
     }
-
  }
  fizz_buzz_one( 150 )
