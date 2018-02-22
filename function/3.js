@@ -6,3 +6,7 @@ function countChar(array, value) {
             console.log(counter)
 };
 countChar( 'sdfsdsdfsAAGAKLAVKFJKJCvVV', 'v' );
+
+/*
+    Реализовать через filter
+*/
